@@ -1,0 +1,34 @@
+.hakkımızda-p{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding-top: 130px;
+font-weight: bold;
+font-size: 40px;
+padding-bottom: 0;
+
+}
+.hakkımızda-div{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: lightgray;
+}
+.under-p{
+  padding-top: -20px;
+font-weight: normal;
+font-size: 20px;
+}
+.main-div{
+  margin-top: 100px;
+}
+
+.img11{
+  border-radius: 20px;
+  width: 500px;
+}
+.main-p{
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}

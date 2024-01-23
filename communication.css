@@ -1,0 +1,39 @@
+.main-photo{
+  transform: rotateY(180deg);
+  width: 500px;
+  height: 800px;
+  display: inline;
+}
+.body-div{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.main-div{
+  display: flex;
+  justify-content: left;
+  column-gap: 50px;
+  border: solid;
+  border-width: 2px;
+  border-color: lightgrey;
+  margin: 50px 50px 50px 50px;
+}
+.location-div{
+  margin-top: 100px;
+}
+h1{
+  margin: 10px 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 50px;
+}
+h2{
+  margin: 0;
+  height: fit-content;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.right-photo{
+  width: 90%;
+  margin-top: 50px;
+}

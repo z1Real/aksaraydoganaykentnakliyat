@@ -1,0 +1,99 @@
+.hakkımızda-p{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 130px;
+  font-weight: bold;
+  font-size: 40px;
+  padding-bottom: 0;
+  }
+  .hakkımızda-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+
+  }
+  .under-p{
+    padding-top: -20px;
+  font-weight: normal;
+  font-size: 20px;
+  }
+  .header{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .main-p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    width: 250px;
+    padding-top: 20px;
+  }
+  .main-div{
+    display: flex;
+    
+
+  }
+  .single-div{
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+  }
+.main-images{
+    width: 270px;
+    margin-bottom: -20px;
+    margin-left: 10px;
+  }
+  .logo{
+    margin: 0;
+  }
+  .photo-div{
+    position: relative;
+    z-index: 1;
+
+  }
+  button{
+    position: relative;
+    z-index: 0;
+    border: none;
+    background-color: lightgray;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;
+  }
+  button:hover{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.563);
+  }
+  .why-us-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+  }
+  .header2{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+  }
+  .single-div2{
+    display: flex;
+    justify-content: center;
+  }
+  .why-us-p{
+    font-family:'Montserrat', sans-serif ;
+    font-weight: bold;
+    text-align: center;
+    width: 70%;
+    height: 170px;
+    padding-top: 30px;
+    background-color: rgb(145, 83, 3);
+    font-size: 20px;
+  }
+  .txt{
+    font-weight: normal;
+  }
+  
+  

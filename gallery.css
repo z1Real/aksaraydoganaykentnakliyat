@@ -1,0 +1,18 @@
+
+.body-images{
+width: 450px;
+margin-top: 15px;
+}
+.body-div{
+  padding:0 20px ;
+  margin: 20px 38px;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: flex-start;
+  border: solid;
+  border-color: lightgray;
+  border-width: 2px;
+  flex-wrap: wrap;
+}
+
