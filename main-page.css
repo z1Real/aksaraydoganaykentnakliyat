@@ -1,18 +1,17 @@
 .top-section-div{
-  background-color: rgba(0, 0, 0, 0.326); 
   align-items: center;
   position: fixed;
   z-index: 5;
 }
 @media(max-width: 600px){ /*Mobil Görünüm*/
 .top-section-div{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.526); 
+  display:flex;
+  justify-content: space-between;
   width: 393px;
 }
 .logo{
-  width: 60px;
+  width: 80px;
 }
 .top-a{
   text-align: center;
@@ -20,10 +19,10 @@
 }
 .photo7{
   width: 370px;
-  margin-top: 50px;
 }
 .main-div{
   width: 393px;
+  height: auto;
 }
 .end,
 .bot-sec-div{
@@ -40,11 +39,14 @@ display: none;
   font-size: 20px;
 }
 .main-photo{
-  height: 400px;
+  width: 393px;
+  margin: 0;
+  object-fit: cover;
 }
 }
 @media(min-width: 600px){
   .top-section-div{
+    background-color: rgba(0, 0, 0, 0.326); 
     display: grid;
     grid-template-columns: 3fr 2fr 2fr 2fr 2fr 2fr;
   }
@@ -89,24 +91,20 @@ display: none;
   font-size: 30px;
 }
 .main-photo{
-  height: 1000px;
-}
-}
-
-.left-sec-div{
-  display: flex;
-  justify-content: center;
+  height: 1000px;  
+  width: 100%;
 }
 .body-div{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.main-photo{
-  width: 100%;
+}
+.left-sec-div{
+  display: flex;
+  justify-content: center;
 }
 body{
-  margin: 0;
-  
+  margin: 0; 
 }
 a{
   text-decoration: none;
