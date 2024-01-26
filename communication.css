@@ -1,8 +1,27 @@
+@media(max-width: 600px){
+.main-photo{
+  display: none;
+}
+.main-div{
+  margin-top: 50px;
+}
+.right-photo{
+  display: none;
+}
+}
+@media(min-width: 600px){
+  .main-photo{
+    display: inline;
+  }
+  .main-div{
+    margin: 50px 50px 50px 50px;
+    column-gap: 50px;
+  }
+}
 .main-photo{
   transform: rotateY(180deg);
   width: 500px;
   height: 800px;
-  display: inline;
 }
 .body-div{
   display: grid;
@@ -11,11 +30,11 @@
 .main-div{
   display: flex;
   justify-content: left;
-  column-gap: 50px;
+
   border: solid;
   border-width: 2px;
   border-color: lightgrey;
-  margin: 50px 50px 50px 50px;
+
 }
 .location-div{
   margin-top: 100px;
