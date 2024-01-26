@@ -1,13 +1,14 @@
 @media(max-width:600px){
   .img11{
-    width: 390px;
+    width: 370px;
+    margin-left: 15px;
   }
   .hakkımızda-div{
     width: 393px;
   }
   .main-p{
-    width: 390px;
-    margin-left: 3px;
+    width: 370px;
+    margin-left: 15px;
   }
   .about-div{
     flex-direction: column;
