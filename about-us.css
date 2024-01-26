@@ -1,3 +1,31 @@
+@media(max-width:600px){
+  .img11{
+    width: 390px;
+  }
+  .hakkımızda-div{
+    width: 393px;
+  }
+  .main-p{
+    width: 390px;
+    margin-left: 3px;
+  }
+  .about-div{
+    flex-direction: column;
+  }
+}
+@media(min-width:600px){
+  .img11{
+    width: 500px;
+  }
+  .main-p{
+    margin-left: 30px;
+    width: 500px;
+  }
+  .about-div{
+    margin-left: 15%;
+  }
+}
+
 .hakkımızda-p{
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
@@ -5,7 +33,6 @@ padding-top: 130px;
 font-weight: bold;
 font-size: 40px;
 padding-bottom: 0;
-
 }
 .hakkımızda-div{
 display: flex;
@@ -14,20 +41,18 @@ align-items: center;
 background-color: lightgray;
 }
 .under-p{
-  padding-top: -20px;
+padding-top: -20px;
 font-weight: normal;
 font-size: 20px;
 }
-.main-div{
+.about-div{
+  display: flex;
   margin-top: 100px;
 }
-
 .img11{
   border-radius: 20px;
-  width: 500px;
 }
 .main-p{
-  margin-left: 30px;
   margin-top: 20px;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
