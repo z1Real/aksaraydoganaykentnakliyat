@@ -21,8 +21,9 @@
   width: 370px;
 }
 .main-div{
-  width: 393px;
+  width: 370px;
   height: auto;
+  margin-left: 15px;
 }
 .end,
 .bot-sec-div{
@@ -42,6 +43,9 @@ display: none;
   width: 393px;
   margin: 0;
   object-fit: cover;
+}
+.photo-div{
+  margin-top: 50px;
 }
 }
 @media(min-width: 600px){
