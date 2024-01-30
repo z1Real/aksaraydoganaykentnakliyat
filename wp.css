@@ -1,0 +1,14 @@
+@media(min-width: 600px){
+  .wp-div{
+    display: none;
+  }
+}
+.wp-div{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+.wp-img{
+  width: 50px;
+  border-radius: 25px;
+}

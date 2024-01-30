@@ -1,0 +1,14 @@
+@media(min-width: 600px){
+  .phone-div{
+    display: none;
+  }
+}
+.phone-div{
+  position: fixed;
+  right: 10px;
+  bottom: 70px;
+}
+.phone-img{
+  width: 50px;
+  border-radius: 25px;
+}
